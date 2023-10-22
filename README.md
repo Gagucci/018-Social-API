@@ -3,7 +3,7 @@
 
 ## Description
 
-
+The goal of this project was to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses Express.js for routing, a MongoDB database, and the Mongoose ODM.
  
 ## Table of Contents
 
@@ -16,10 +16,14 @@
 
 ## Installation
 
-
+`clone the database`
+`run npm install`
+`run npm run seed`
+`run npm start`
 
 ## Usage
 
+A backend API for a social media application.
 
 ## License
 
@@ -37,3 +41,5 @@ Help received from TA's, my tutor Neil Dhand, and my fellow peers in the UCB Ful
 
 
 ## Links
+
+![Github Repository](https://github.com/Gagucci/018-Social-API.git)
