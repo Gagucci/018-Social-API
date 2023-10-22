@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "seed": "node utils/seed"
+    "seed": "node utils/seeds"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,8 @@
     "url": "https://github.com/Gagucci/018-Social-API/issues"
   },
   "dependencies": {
-    "dotenv": "^16.3.1",
     "express": "^4.17.1",
-    "mongodb": "^6.2.0",
-    "mongoose": "^7.0.2"
+    "mongoose": "^7.6.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.9"

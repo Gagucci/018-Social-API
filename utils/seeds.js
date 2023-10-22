@@ -1,4 +1,6 @@
-const UserSeeds = [
+const
+
+const userSeeds = [
     {
         username: "test",
         email: "testemail1@gmail.com",
@@ -13,7 +15,7 @@ const UserSeeds = [
     }
 ]
 
-const ThoughtSeeds = [
+const thoughtSeeds = [
     {
         Text: "Test Thought 1",
         username: "test",
@@ -27,7 +29,7 @@ const ThoughtSeeds = [
         username: "test3",
     }]
 
-const ReactionSeeds = [
+const reactionSeeds = [
     {
         reactionBody: "Test Reaction 1",
     },
@@ -39,4 +41,3 @@ const ReactionSeeds = [
     }
 ]
 
-module.exports = { UserSeeds, ThoughtSeeds, ReactionSeeds };
