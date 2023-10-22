@@ -26,7 +26,7 @@ module.exports = {
                 .populate('thoughts');
 
             if (!thoughtData) {
-                res.status(404).json({ message: 'No thought found with this id!' });
+                res.status(404).json({ message: 'No thought found on this id!' });
                 return;
             }
 

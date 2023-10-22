@@ -1,8 +1,9 @@
-const mongoose = require('mongoose');
+const { connect, connection } = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/socialNetworkDB')
-console.log('Connected to MongoDB')
+const mongoURL = 'mongodb://localhost:27017/socialAPI'
 
-module.exports = mongoose.connection;
+connect(mongoURL);
+
+module.exports = connection;
 
