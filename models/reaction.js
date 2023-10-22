@@ -13,6 +13,7 @@ const reactionSchema = new Schema({
     username: {
         type: String,
         required: true,
+        ref: 'User'
     },
     createdAt: {
         type: Date,
@@ -27,6 +28,6 @@ const reactionSchema = new Schema({
     }
 )
 
-const Reaction = model("reaction", reactionSchema)
+const reaction = model("reaction", reactionSchema)
 
-module.exports = Reaction;
+module.exports = reaction;
